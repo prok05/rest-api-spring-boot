@@ -1,0 +1,10 @@
+com\myproducts\myproducts\exception\ProductAlreadyExistsException.class
+com\myproducts\myproducts\exception\ProductNotFoundException.class
+com\myproducts\myproducts\service\ProductService.class
+com\myproducts\myproducts\repository\ProductRepository.class
+com\myproducts\myproducts\service\impl\ProductServiceImpl.class
+com\myproducts\myproducts\MyProductsApplication.class
+com\myproducts\myproducts\entity\ProductEntity.class
+com\myproducts\myproducts\service\impl\InMemoryProductServiceImpl.class
+com\myproducts\myproducts\controller\ProductController.class
+com\myproducts\myproducts\repository\InMemoryProductDAO.class

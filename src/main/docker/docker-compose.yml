@@ -1,0 +1,27 @@
+version: '2'
+
+services:
+  app:
+    image: 'myproducts:latest'
+    build:
+      context: .
+    container_name: app
+    depends_on:
+      - db
+    ports:
+      - "8000:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/myproducts_db
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=1234
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  db:
+    image: 'postgres:16.2-bullseye'
+    container_name: db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_DB=myproducts_db
+    ports:
+      - "5000:5432"

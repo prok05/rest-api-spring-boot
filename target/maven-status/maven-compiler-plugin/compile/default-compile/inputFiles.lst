@@ -1,0 +1,10 @@
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\controller\ProductController.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\entity\ProductEntity.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\exception\ProductAlreadyExistsException.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\MyProductsApplication.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\service\impl\InMemoryProductServiceImpl.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\service\impl\ProductServiceImpl.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\repository\ProductRepository.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\service\ProductService.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\repository\InMemoryProductDAO.java
+C:\Users\stargazer\IdeaProjects\myproducts\src\main\java\com\myproducts\myproducts\exception\ProductNotFoundException.java
